@@ -1,0 +1,58 @@
+.parent_todo{
+    display:flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    width: 90vw;
+    height: auto;
+    background-color: rgb(206, 233, 180);
+    margin-left: 5%;
+   padding-top: 5%;
+}
+
+.header{
+    background-color: rgb(212, 245, 245);
+    width: 70%;
+    text-align: center;
+    color: darkcyan;
+}
+.input_todo{
+    margin-top: 4%;
+    margin-left:3%;
+    width: 40%;
+}
+.input_todo input{
+    margin-left:5%;
+    padding:1%;
+    width: 50%;
+    border: 3px solid rgb(173, 172, 224);
+
+    background-color:#fcf9f9;
+
+}
+.input_todo button{
+    margin-left:5%;
+    padding:2% 3% 1% 2%;
+    border: 2px solid rgb(201, 219, 231);
+    background-color: rgb(76, 16, 243);
+    border-radius: 15px;
+    color :white;
+    text-align: center;
+}
+.edit-btn{
+    padding: 6px 10px ;
+    background-color: rgb(147, 221, 145);
+    border-radius: 5px;
+    color: white;
+}
+.delete-btn{
+    padding: 6px 10px ;
+    background-color: rgb(236, 138, 138);
+    border-radius: 5px;
+    color: white;
+}
+.user_data{
+    background-color: rgb(141, 209, 189);
+    margin-top: 5%;
+}
+
